@@ -12,7 +12,7 @@ public class HelloWorld implements Listener {
         Material type = event.getBlock().getType();
         if (type == Material.TORCH) {
             Player player = event.getPlayer();
-            player.sendMessage("Hello world");
+            player.sendMessage("Why Put Torch?");
         }
     }
 }
